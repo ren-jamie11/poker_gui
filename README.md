@@ -12,6 +12,8 @@ This Python app offers a quick, informative, and user-friendly interface for beg
 
 This app was made completely from scratch using Python's built-in libraries. The only dependency used is "pokerkit", which is an existing API one can use to generate cards, hands, and ranges. All the logic for determining hand type, assessing hand strength, calculating probabilities, and displaying the info in an interactive GUI was implemented from scratch. </br>
 
+<img src="https://github.com/ren-jamie11/poker_gui/blob/main/gui1.png" alt="Alt text" width="1000">
+
 ## How to use
 
 We will assume a 52-card deck with ```ranks = ['A', 'K', 'Q', 'J', 'T', '2', '3', '4', '5', '6', '7', '8', '9']``` and ```suits = ['h', 's', 'c', 'd']```.
