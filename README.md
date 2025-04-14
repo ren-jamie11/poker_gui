@@ -33,11 +33,9 @@ Hero stats shows the probabilities of each hand type for you (hero) on turn/flop
 
 Provides an upper and lower bound for the opponent's probability of beating you (hero) on turn/flush/river. 
 
-**Upper bound**: Calculated as the probability that the opponent will acquire a hand that is better than hero's current hand. Villain equity cannot be higher than that, because it is effectively assumes hero's chance of not improving is 100%. To include more scenarios would mean to include those where villain's hand type is worse than hero's current hand
+**Upper bound**: Calculated as the probability that the opponent will acquire a hand that is better than hero's current hand. Villain equity cannot be higher than that, because to include more scenarios would mean to include those where villain's hand type is worse than hero's current hand
 
-**Lower bound:** Lower bound is calculated by multiplying the upper bound ^ by (1 - P[hero hand improves]). We know villain's equity is at least this value, because villain wins if hero remains same and villain improves past hero. This number is effectively assuming hero will win so long as he/she improves.
-
-In general, the upper/lower bound will be wider if hero has a lot of potential to improve their hand.
+**Lower bound:** Lower bound is calculated by multiplying the upper bound ^ by (1 - P[hero hand improves]). We know villain's equity is at least this value, because villain wins if hero remains same and villain improves past hero. In general, the upper/lower bound will be wider if hero has a lot of potential to improve their hand.
 
 ## Example interpretation
 
