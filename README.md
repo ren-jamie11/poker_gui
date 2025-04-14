@@ -39,6 +39,14 @@ Provides an upper and lower bound for the opponent's probability of beating you 
 
 In general, the upper/lower bound will be wider if hero has a lot of potential to improve their hand.
 
+## Example interpretation
+
+</br>
+<img src="https://github.com/ren-jamie11/poker_gui/blob/main/gui2.png" alt="Alt text" width="1000">
+</br>
+
+Here, we have top pair, with limited straight/flush draw potential. However, because there are 3 spades on the board, opponent has a dangerous chance of making a flush on the river. Accordingly, villain equity shows that though they only have around 11% chance of beating us now, those odds will improve significantly in their favor as they see more cards. Therefore, it would make sense for us to bet aggressively now (on flop) to "defend" and dissuade them from seeing more cards. 
+
 
 
 
