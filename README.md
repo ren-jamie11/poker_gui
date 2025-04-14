@@ -5,7 +5,7 @@ This Python app offers a quick, informative, and user-friendly interface for beg
 - What is the probability that I currently have a stronger hand than them? 
 - What is the potential for my opponent to improve their hand?
 - Given the pot and the calculated probabilities, how much should I bet to get value? (induce them to call when I am ahead)
-- Given my opponent's potential to improve, how much should I bet to discourage them from calling (and then improving past me?)
+- Given my opponent's potential to improve, how much should I bet to discourage them from seeing the cards on the turn/river?
 - Given the distribution of my opponent's hand strength (and their tendencies), what is the probability that they would fold to a bluff?
 
 #### How this app was made
