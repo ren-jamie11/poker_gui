@@ -20,7 +20,7 @@ This app was made completely from scratch using Python's built-in libraries. The
 
 #### Installation
 
-1. Clone this repo
+1. Clone this repo: ```git clone https://github.com/ren-jamie11/poker_gui.git```
 2. Install dependencies: ```pip install -r requirements.txt```
 3. Run ```main.py```
 
