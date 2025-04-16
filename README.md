@@ -18,6 +18,14 @@ This app was made completely from scratch using Python's built-in libraries. The
 
 ## How to use
 
+#### Installation
+
+1. Clone this repo
+2. Install dependencies: ```pip install -r requirements.txt```
+3. Run ```main.py```
+
+#### Using the app
+
 We will assume a 52-card deck with ```ranks = ['A', 'K', 'Q', 'J', 'T', '2', '3', '4', '5', '6', '7', '8', '9']``` and ```suits = ['h', 's', 'c', 'd']```.
 
 1. Enter your hand and the flop cards in string format (e.g. you have 'AdTc', the flop comes 'Ac8d3s')
