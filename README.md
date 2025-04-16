@@ -1,5 +1,7 @@
 # Poker Hand vs. Range Toolkit
 
+#### Get insight into your poker hand with this simple, quick, easy-to-use tool!
+
 This Python app offers a quick, informative, and user-friendly interface for beginner poker players to analyze their hand vs. an opponent's range. In a real poker game, it is impossible to know exactly what hand your opponent has, but one can work with reasonable assumptions with the "set of possible hands they may have", known as the opponent's "range". By calculating the probabilities of each hand type in each scenario, the app can help the user gain valuable insight into the relative strength of their hand vs. their opponent, helping them answer questions such as:
 
 - What is the probability that I currently have a stronger hand than them? 
